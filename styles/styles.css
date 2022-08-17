@@ -197,6 +197,20 @@ section.hero-section .container .pic .img-wrapper {
   border: 5px solid #000;
   box-shadow: 8px 8px 0px #000;
 }
+section.hero-section .container .pic .img-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  aspect-ratio: 1/1;
+  background: #fd6261;
+  border-radius: 100px;
+  z-index: -1;
+  top: 100%;
+  left: 100%;
+  transform: translate(-50%, -20%);
+  box-shadow: 0px 0px 0px 7px #ffade4, 0px 0px 0px 20px #191549,
+    0px 0px 0px 30px #000000;
+}
 section.hero-section .container .pic .img-wrapper img:first-of-type {
   opacity: 0.5;
 }
