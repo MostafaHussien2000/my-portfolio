@@ -23,4 +23,12 @@ export const projects = [
     url: "https://rock-paper-scissors-game-by-mostafa.netlify.app/",
     tools: ["HTML", "CSS", "JS"],
   },
+  {
+    id: 3,
+    name: "Music App!",
+    coverSrc: "./assets/projects/music-app.png",
+    repo: "https://github.com/MostafaHussien2000/rcpgame",
+    url: "https://dummy-react-music-app.netlify.app/",
+    tools: ["ReactJS", "JS", "SCSS"],
+  },
 ];

@@ -432,12 +432,13 @@ section.projects-section
   .project-text-info
   ul
   li {
-  padding: 2px 5px;
-  font-size: 16px;
+  padding: 2px 8px;
+  font-size: 14px;
   background: rgb(191, 140, 140);
   text-align: center;
   border: 3px solid #000;
-  border-radius: 3px;
+  border-radius: 5px;
+  font-weight: 500;
 }
 section.projects-section
   .projects
@@ -474,6 +475,15 @@ section.projects-section
   ul
   li.reactjs {
   background: #63b1f5;
+}
+section.projects-section
+  .projects
+  .project-card
+  .project-text
+  .project-text-info
+  ul
+  li.scss {
+  background: #ff469b;
 }
 section.projects-section
   .projects
@@ -602,6 +612,8 @@ section.projects-section .projects .project-card .project-cover img {
   section.projects-section .container .text .box {
     width: auto;
     margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   section.projects-section .projects {
     grid-template-columns: 1fr;

@@ -12,8 +12,6 @@ function ProjectCard(project) {
   const coverImg = new Image();
   coverImg.src = project.coverSrc;
 
-  console.log(coverImg.outerHTML);
-
   const projectCard = `
     <div class="project-card" id=project-"${project.id}">
         <div class="project-text">
