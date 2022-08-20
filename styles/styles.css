@@ -832,6 +832,14 @@ section.contact-me .container .form-sec .form form button {
     width: 100%;
   }
 }
+@media only screen and (max-width: 500px) {
+  section.contact-me .container .links-sec .links ul {
+    grid-template-columns: 1fr;
+  }
+  section.contact-me .container .form-sec {
+    padding: 20px;
+  }
+}
 
 /* Footer
 ========= */
