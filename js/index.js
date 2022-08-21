@@ -73,3 +73,23 @@ projects.forEach((project) => {
 
   projectsWrapper.innerHTML += projectTemplate;
 });
+
+/* App Functions
+================ */
+
+// Scrolling with the "say hello" button
+const sayHelloBtn = document.getElementById("say-hello");
+
+sayHelloBtn.addEventListener("click", () => {
+  const formSection = document.getElementById("contact-form");
+
+  formSection.scrollIntoView({ behavior: "smooth" });
+});
+
+// Scrolling with the "start work" button
+const startWork = document.getElementById("start-work");
+startWork.addEventListener("click", () => {
+  const contactMeSection = document.querySelector("section.contact-me");
+
+  contactMeSection.scrollIntoView({ behavior: "smooth" });
+});
