@@ -36,7 +36,7 @@ export const projects = [
     name: "Monogamer!",
     coverSrc: "./assets/projects/monogamer.png",
     repo: "https://github.com/MostafaHussien2000/monogamer",
-    url: "https://dummy-react-music-app.netlify.app/",
+    url: null,
     tools: ["ReactJS", "JS", "SCSS"],
   },
 ];
